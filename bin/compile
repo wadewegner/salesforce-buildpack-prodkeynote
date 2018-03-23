@@ -32,6 +32,8 @@ mkdir -p $BUILD_DIR/$vendorDir
 
 if [ "$CI" == "true" ]; then
 
+  mkdir -p $BUILD_DIR/bin
+
   testSetupScript=$BUILD_DIR/bin/test-setup.sh
   testRunScript=$BUILD_DIR/bin/test.sh
 
