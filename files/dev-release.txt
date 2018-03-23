@@ -3,10 +3,14 @@
        Config vars ...
        Parse sfdx.yml values ...
        Detected DEV. Kicking off deployment ...
-Successfully authorized wade-de@pipelines.org with org ID 00D6A000001LhqPUAS
+
+            Successfully authorized wade-de@pipelines.org with org ID 00D6A000001LhqPUAS
+
        Installing package version TDX18DreamhouseSFDX ...
-=== Installed Package Versions [1]
-ID                  PACKAGE ID          PACKAGE NAME            NAMESPACE  PACKAGE VERSION ID  VERSION NAME  VERSION
-──────────────────  ──────────────────  ──────────────────────  ─────────  ──────────────────  ────────────  ────────
-0A36A000000Tk00SAC  0336A0000001HCdQAM  PipelineSamplePackage2             04t6A000002SxV6QAK  version name  1.0.0.25
+
+            === Installed Package Versions [1]
+            ID                  PACKAGE ID          PACKAGE NAME            NAMESPACE  PACKAGE VERSION ID  VERSION NAME  VERSION
+            ──────────────────  ──────────────────  ──────────────────────  ─────────  ──────────────────  ────────────  ────────
+            0A36A000000Tk00SAC  0336A0000001HCdQAM  PipelineSamplePackage2             04t6A000002SxV6QAK  version name  1.0.0.25
+            
 -----> DONE! Completed in 21s
