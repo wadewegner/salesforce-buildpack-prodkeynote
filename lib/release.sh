@@ -26,8 +26,10 @@ if [ "$STAGE" == "" ]; then
   echo "$(cat "$vendorDir"/reviewapp-release.txt)"
 elif [ "$STAGE" == "DEV" ]; then
   echo "$(cat "$vendorDir"/dev-release.txt)"
-else
+elif [ "$STAGE" == "STAGING" ]; then
   echo "$(cat "$vendorDir"/staging-release.txt)"
+else
+  echo "$(cat "$vendorDir"/prod-release.txt)"
 fi
 
 exit 0
