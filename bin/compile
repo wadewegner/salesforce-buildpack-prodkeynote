@@ -34,6 +34,23 @@ fi
 vendorDir="vendor/sfdx"
 mkdir -p $BUILD_DIR/$vendorDir
 
+if [ "$CI" == "true" ]; then
+
+  testSetupScript=$BUILD_DIR/bin/test-setup.sh
+  testRunScript=$BUILD_DIR/bin/test.sh
+
+  cp $BP_DIR/files/test-setup.txt $BUILD_DIR/bin/test-setup.txt
+  cp $BP_DIR/files/test-success.txt $BUILD_DIR/bin/test-success.txt
+
+  echo "cat $BUILD_DIR/bin/test-setup.txt" > $testSetupScript
+  chmod +x $testSetupScript
+
+  echo "cat $BUILD_DIR/bin/test-success.txt" > $testRunScript
+  chmod +x $testRunScript
+
+fi
+
+
 echo "# Deploy source to production org.
 release: ./"$vendorDir"/release.sh \"$TARGET_SCRATCH_ORG_ALIAS\" \"$SFDX_PACKAGE_VERSION_ID\"" > $BUILD_DIR/Procfile
 
