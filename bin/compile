@@ -37,4 +37,6 @@ mkdir -p $BUILD_DIR/$vendorDir
 echo "# Deploy source to production org.
 release: ./"$vendorDir"/release.sh \"$TARGET_SCRATCH_ORG_ALIAS\" \"$SFDX_PACKAGE_VERSION_ID\"" > $BUILD_DIR/Procfile
 
+cp $BP_DIR/lib/release.sh $BUILD_DIR/"$vendorDir"/
+
 exit 0
