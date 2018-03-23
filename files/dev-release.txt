@@ -11,6 +11,6 @@
             === Installed Package Versions [1]
             ID                  PACKAGE ID          PACKAGE NAME            NAMESPACE  PACKAGE VERSION ID  VERSION NAME  VERSION
             ──────────────────  ──────────────────  ──────────────────────  ─────────  ──────────────────  ────────────  ────────
-            0A36A000000Tk00SAC  0336A0000001HCdQAM  PipelineSamplePackage2             04t6A000002SxV6QAK  version name  1.0.0.25
+            0A36A000000Tk00SAC  0336A0000001HCdQAM  TDX18DreamhouseSFDX                04t6A000002SxV6QAK  version name  1.0.0.25
             
 -----> DONE! Completed in 21s
