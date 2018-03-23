@@ -23,11 +23,11 @@ setup_dirs "."
 eval $(parse_yaml sfdx.yml)
 
 if [ "$STAGE" == "" ]; then
-  echo "$(cat ../files/reviewapp-release.txt)"
+  echo "$(cat reviewapp-release.txt)"
 elif [ "$STAGE" == "DEV" ]; then
-  echo "$(cat ../files/dev-release.txt)"
+  echo "$(cat dev-release.txt)"
 else
-  echo "$(cat ../files/staging-release.txt)"
+  echo "$(cat staging-release.txt)"
 fi
 
 exit 0
