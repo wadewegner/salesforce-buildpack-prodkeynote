@@ -25,11 +25,7 @@ source $BP_DIR/lib/stdlib.sh
 export_env "$ENV_DIR"
 setup_dirs "$BUILD_DIR"
 
-if [ "$STAGE" == "" ]; then
-  echo "$(cat files/reviewapp-build.txt)"
-else
-  echo "$(cat files/dev-build.txt)"
-fi
+
 
 vendorDir="vendor/sfdx"
 mkdir -p $BUILD_DIR/$vendorDir
@@ -47,6 +43,14 @@ if [ "$CI" == "true" ]; then
 
   echo "cat $BUILD_DIR/bin/test-success.txt" > $testRunScript
   chmod +x $testRunScript
+
+else 
+
+  if [ "$STAGE" == "" ]; then
+    echo "$(cat files/reviewapp-build.txt)"
+  else
+    echo "$(cat files/dev-build.txt)"
+  fi
 
 fi
 
