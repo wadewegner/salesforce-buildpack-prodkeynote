@@ -65,4 +65,8 @@ cp $BP_DIR/lib/common.sh $BUILD_DIR/"$vendorDir"/
 cp $BP_DIR/lib/sfdx.sh $BUILD_DIR/"$vendorDir"/
 cp $BP_DIR/lib/stdlib.sh $BUILD_DIR/"$vendorDir"/
 
+cp $BP_DIR/files/reviewapp-release.txt $BUILD_DIR/"$vendorDir"/
+cp $BP_DIR/files/dev-release.txt $BUILD_DIR/"$vendorDir"/
+cp $BP_DIR/files/staging-release.txt $BUILD_DIR/"$vendorDir"/
+
 exit 0
