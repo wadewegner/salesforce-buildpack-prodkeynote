@@ -31,10 +31,7 @@ else
   echo "$(cat files/dev-build.txt)"
 fi
 
-  echo "# Deploy source to production org.
+echo "# Deploy source to production org.
 release: ./"$vendorDir"/release.sh \"$TARGET_SCRATCH_ORG_ALIAS\" \"$SFDX_PACKAGE_VERSION_ID\"" > $BUILD_DIR/Procfile
-
-  debug "Generated Procfile that will deploy source in release phase and redirect to open-path in web phase"
-fi
 
 exit 0
