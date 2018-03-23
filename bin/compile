@@ -31,6 +31,9 @@ else
   echo "$(cat files/dev-build.txt)"
 fi
 
+vendorDir="vendor/sfdx"
+mkdir -p $BUILD_DIR/$vendorDir
+
 echo "# Deploy source to production org.
 release: ./"$vendorDir"/release.sh \"$TARGET_SCRATCH_ORG_ALIAS\" \"$SFDX_PACKAGE_VERSION_ID\"" > $BUILD_DIR/Procfile
 
