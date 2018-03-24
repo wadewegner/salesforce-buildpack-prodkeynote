@@ -1,40 +1,6 @@
 1..37
-ok 1 LIFXControllerTest.testSetPower
-ok 2 LIFXControllerTest.testGetLights
-ok 3 LIFXControllerTest.testSetBrightness
-ok 4 PostPriceChangeToSlackTest.testPost
-ok 5 SlackOpportunityPublisherTest.testPost
-ok 6 EinsteinVisionControllerTest.JTWIssue
-ok 7 PropertyControllerTest.getAvailableProperties
-ok 8 PropertyControllerTest.getSimilarProperties
-ok 9 RejectDuplicateFavoriteTest.acceptNonDuplicate
-ok 10 PushPriceChangeNotificationTest.testPush
-ok 11 BotTest.testAddTwoNumbers
-ok 12 BotTest.testBotController
-ok 13 BotTest.testCostCenter
-ok 14 BotTest.testEmployeeId
-ok 15 BotTest.testFindAccount
-ok 16 BotTest.testFindContact
-ok 17 EinsteinVisionControllerTest.testCreateDataset
-ok 18 EinsteinVisionControllerTest.testDeleteDataset
-ok 19 EinsteinVisionControllerTest.testGetDataSets
-ok 20 PropertyControllerTest.testFindAll
-ok 21 PropertyControllerTest.testFindById
-ok 22 RejectDuplicateFavoriteTest.rejectDuplicate
-ok 23 BotTest.testFindProperties
-ok 24 BotTest.testFindPropertiesByBedrooms
-ok 25 BotTest.testHello
-ok 26 BotTest.testHelp
-ok 27 BotTest.testHelpTopic
-ok 28 BotTest.testMyOpenCases
-ok 29 BotTest.testNext
-ok 30 BotTest.testPipeline
-ok 31 BotTest.testQuarter
-ok 32 BotTest.testSOQL
-ok 33 BotTest.testTopOpportunities
-ok 34 BotTest.testTravelApproval
-ok 35 EinsteinVisionControllerTest.testGetModelByDataset
-ok 36 EinsteinVisionControllerTest.testPredict
-ok 37 EinsteinVisionControllerTest.testTrainModel
+ok 1 ChatterHelper.testSetup
+ok 2 ChatterHelper.testController
+
 # Run "sfdx force:apex:test:report -i 7071700000yqP4u --resultformat <format>" to retrieve test results in a different format.
 -----> test command `./bin/test.sh` completed successfully
