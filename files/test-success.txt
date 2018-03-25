@@ -1,4 +1,4 @@
-1..37
+1..2
 ok 1 ChatterHelper.testSetup
 ok 2 ChatterHelper.testController
 

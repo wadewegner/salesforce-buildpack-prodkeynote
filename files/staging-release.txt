@@ -6,11 +6,11 @@
 
             Successfully authorized wade-staging@pipelines.org with org ID 00D6A000001LhqZUAS
 
-       Installing package version GIFter ...
+       Installing package version GIFterTDX ...
 
             === Installed Package Versions [1]
             ID                  PACKAGE ID          PACKAGE NAME            NAMESPACE  PACKAGE VERSION ID  VERSION NAME  VERSION
             ──────────────────  ──────────────────  ──────────────────────  ─────────  ──────────────────  ────────────  ────────
-            0A36A000000cAC9SAM  0336A0000001HCdQAM  GIFter                             04t6A000001c6t3QAA  version name  1.0.0.3
+            0A36A000000cAC9SAM  0336A0000001HCdQAM  GIFterTDX                          04t6A000001c6t3QAA  version name  1.0.0.3
 
 -----> DONE! Completed in 12s
